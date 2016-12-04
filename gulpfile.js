@@ -140,7 +140,7 @@ gulp.task('default', function (callback) {
 
 gulp.task('dist', function (callback) {
   runSequence('clean:dist', 
-    ['useref', 'copy', 'sass', 'css',  'images', 'js-images'],
+    ['useref', 'copy', 'sass',  'images', 'js-images'],
     callback
   )
 })
